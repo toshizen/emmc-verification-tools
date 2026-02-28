@@ -1,0 +1,39 @@
+=== eMMC Write Test for PR 430 ===
+Mode: 1 (AFTER FIX)
+Files: 5000
+Threads: 100 (each handles ~50 files)
+Data dir: /opt/emmc_test/data
+Info size: 440 KB
+Test duration: 60 seconds
+==================================
+
+Creating 5000 dat files...
+  Created 1000 files...
+  Created 2000 files...
+  Created 3000 files...
+  Created 4000 files...
+  Created 5000 files...
+Done.
+
+Starting write threads...
+  Started 100 threads...
+Done.
+
+Test running... Press Ctrl+C to stop, or wait 60 seconds.
+
+[10 sec] DAT: 239724 writes (0 KB), INFO: 14982 writes (0 KB), Total: 1 KB
+[20 sec] DAT: 229922 writes (0 KB), INFO: 14370 writes (0 KB), Total: 0 KB
+[30 sec] DAT: 229231 writes (0 KB), INFO: 14326 writes (0 KB), Total: 0 KB
+[30 sec] Flushed: 698584 files updated, info written
+[40 sec] DAT: 228534 writes (0 KB), INFO: 14283 writes (0 KB), Total: 1 KB
+[50 sec] DAT: 228460 writes (0 KB), INFO: 14278 writes (0 KB), Total: 0 KB
+
+Stopping test...
+[60 sec] DAT: 217286 writes (0 KB), INFO: 13580 writes (0 KB), Total: 0 KB
+[30 sec] Flushed: 674573 files updated, info written
+
+=== Test Results ===
+Total DAT writes: 5018608 (0.00 MB)
+Total INFO writes: 5018644 (0.00 MB)
+Total write amount: 85.10 MB
+====================

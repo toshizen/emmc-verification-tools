@@ -1,0 +1,6 @@
+label=safety
+device=mmcblk2
+duration=56s
+sectors_written=76416
+written_mb=37.31
+write_rate_mbs=0.67

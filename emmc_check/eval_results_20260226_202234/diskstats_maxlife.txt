@@ -1,0 +1,6 @@
+label=maxlife
+device=mmcblk2
+duration=57s
+sectors_written=35840
+written_mb=17.50
+write_rate_mbs=0.31

@@ -1,0 +1,6 @@
+label=default
+device=mmcblk2
+duration=58s
+sectors_written=76712
+written_mb=37.46
+write_rate_mbs=0.65
