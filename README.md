@@ -16,17 +16,8 @@ ring_infoの書き込み頻度削減による書き込み量の違いを測定�
 
 ## ビルド方法
 
-shizenboxプロジェクトのビルドシステムに統合されています。
-
 ```bash
-cd /home/sato/git/shizenbox/review
-make
-```
-
-または個別ビルド：
-
-```bash
-cd /home/sato/git/shizenbox/review/src/app/emmc_test
+cd emmc_test
 make
 ```
 
